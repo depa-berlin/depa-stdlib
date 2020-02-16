@@ -1,0 +1,11 @@
+{
+    "name": "depa/depa-stdlib",
+    "description": "...",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mirko Fenrich",
+            "email": "fenrich@designpark.de"
+        }
+    ]
+}
