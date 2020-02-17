@@ -7,5 +7,12 @@
             "name": "Mirko Fenrich",
             "email": "fenrich@designpark.de"
         }
-    ]
+    ],
+    "require": {
+        "laminas/laminas-coding-standard": "^1.0"
+    },
+    "scripts": {
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf"
+    }
 }

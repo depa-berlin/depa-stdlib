@@ -4,7 +4,7 @@ namespace Depa\Stdlib;
 /**
  * Konvertiert das Objekt in seine HAL-Darstellung
  *
- * @param int $options            
+ * @param int $options
  * @return string
  */
 interface HalableInterface
@@ -12,5 +12,3 @@ interface HalableInterface
 
     public function toHal(\Laminas\Diactoros\Uri $requestUri);
 }
-
-?>
