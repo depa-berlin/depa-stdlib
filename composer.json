@@ -11,6 +11,11 @@
     "require": {
         "laminas/laminas-coding-standard": "^1.0"
     },
+    "autoload": {
+        "psr-4": {
+            "Depa\\Stdlib\\": "src/"
+        }
+    },
     "scripts": {
         "cs-check": "phpcs",
         "cs-fix": "phpcbf"
